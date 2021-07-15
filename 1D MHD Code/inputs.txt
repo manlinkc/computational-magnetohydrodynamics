@@ -1,0 +1,30 @@
+3		Test	
+1		Limiter
+100  		Number of xcells		
+0.0		Domain Minimum x-direction		
+800.0  		Domain Maximum x-direction				
+80.0 		Final Time	
+0.9 		CFL Number	
+2.0		Gamma
+0.0		Omega
+
+******************************************
+Notes
+******************************************
+Choose a test (integer) :
+1 = Toro's Test 1 x-direction
+2 = Modified Sod's Test x-direction 
+3 = Brio and Wu x-direction
+4 = Brio and Wu y-direction
+5 = Dai and Woodward x-direction
+6 = Dai and Woodward y-direction 
+7 = Li 2.5D shock tube test
+
+Choose a limiter (integer) : 
+1 = Minbee
+2 = Superbee 
+3 = Vanleer
+4 = Vanalbada
+
+Copy the settings for the test you want to run into inputs.txt
+

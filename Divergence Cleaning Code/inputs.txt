@@ -1,0 +1,42 @@
+5		Test	
+1		Limiter
+3  		Boundary Condition  
+256  		Number of xcells
+512		Number of ycells		
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction		
+-1.0		Domain Minimum y-direction
+1.0 		Domain Maximum y-direction		
+20.0 		Final Time	
+0.9 		CFL Number	
+1.66667		Gamma
+0.0		Omega
+
+
+******************************************
+Notes
+******************************************
+Choose a test (integer) :
+1 = Toro's Test 1 x-direction
+2 = Brio and Wu x-direction 
+3 = Dai and Woodward 
+4 = Orzag Tang 
+5 = Kelvin Helmholtz Instability
+6 = Cylindrical Explosion
+7 = Toro's Test 1 y-direction
+8 = Brio and Wu y-direction
+9 = Non-aligned Toro Test 1
+
+Choose a limiter (integer) : 
+1 = Minbee
+2 = Superbee 
+3 = Vanleer
+4 = Vanalbada
+
+Choose a boundary condition (integer) : 
+1 = Transmissive
+2 = Periodic
+3 = KH (Kelvin Helmholtz)
+
+Copy the settings for the test you want to run into inputs.txt
+

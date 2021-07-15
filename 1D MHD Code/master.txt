@@ -1,0 +1,111 @@
+******************************************
+Notes
+******************************************
+Choose a test (integer) :
+1 = Toro's Test 1 x-direction
+2 = Modified Sod's Test x-direction 
+3 = Brio and Wu x-direction
+4 = Brio and Wu y-direction
+5 = Dai and Woodward x-direction
+6 = Dai and Woodward y-direction 
+7 = Li 2.5D shock tube test
+
+Choose a limiter (integer) : 
+1 = Minbee
+2 = Superbee 
+3 = Vanleer
+4 = Vanalbada
+
+Copy the settings for the test you want to run into inputs.txt
+
+******************************************
+Toro Test 1 x-direction
+******************************************
+1		Test	
+1		Limiter
+100  		Number of xcells		
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction				
+0.25 		Final Time	
+0.9 		CFL Number	
+1.4		Gamma
+0.0		Omega
+
+******************************************
+Modified Sod's Test x-direction
+******************************************
+2		Test	
+1		Limiter
+100  		Number of xcells		
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction				
+0.20 		Final Time	
+0.9 		CFL Number	
+1.4		Gamma
+0.0		Omega
+
+******************************************
+Brio and Wu x-direction
+******************************************
+3		Test	
+1		Limiter
+100  		Number of xcells		
+0.0		Domain Minimum x-direction		
+800.0  		Domain Maximum x-direction				
+80.0 		Final Time	
+0.9 		CFL Number	
+2.0		Gamma
+0.0		Omega
+
+******************************************
+Brio and Wu y-direction
+******************************************
+4		Test	
+1		Limiter
+100  		Number of xcells		
+0.0		Domain Minimum x-direction		
+800.0  		Domain Maximum x-direction				
+80.0 		Final Time	
+0.9 		CFL Number	
+2.0		Gamma
+0.0		Omega
+
+******************************************
+Dai and Woodward
+******************************************
+5		Test	
+1		Limiter
+100  		Number of xcells
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction		
+0.08 		Final Time	
+0.9 		CFL Number	
+5.0/3.0		Gamma
+0.0		Omega
+
+******************************************
+Dai and Woodward y-direction
+******************************************
+6		Test	
+1		Limiter
+100  		Number of xcells
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction		
+0.08 		Final Time	
+0.9 		CFL Number	
+5.0/3.0		Gamma
+0.0		Omega
+
+******************************************
+Li 2.5D Shock Tube Test
+******************************************
+7		Test	
+1		Limiter
+100  		Number of xcells
+0.0		Domain Minimum x-direction		
+1.0  		Domain Maximum x-direction		
+0.2 		Final Time	
+0.9 		CFL Number	
+5.0/3.0		Gamma
+0.0		Omega
+
