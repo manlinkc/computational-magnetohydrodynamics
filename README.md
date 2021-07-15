@@ -1,5 +1,5 @@
 # computational-magnetohydrodynamics
-Code submission for a short research project on the topic 'Computational Magnetohydrodynamics' as part of the MPhil in Scientific Computing, University of Cambridge 2020-2021 program. Below is a description of each subdirectory and file included.
+Code submission for a short research project on the topic 'Computational Magnetohydrodynamics' as part of the MPhil in Scientific Computing, University of Cambridge 2020-2021 program. Below is a description of each subdirectory and file included. All code is written in C++.
 
 ## 1D MHD Code 
 
